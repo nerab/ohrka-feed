@@ -1,6 +1,6 @@
 # Ohrka::Feed
 
-TODO: Write a gem description
+Provides an RSS feed for http://www.ohrka.de/ until they provide one
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+See bin script for now.
 
 ## Contributing
 

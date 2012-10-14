@@ -27,13 +27,12 @@ def episodes
   extract_xpath('eb/hoer-archiv', "//*[starts-with(@id, 'search_element')]").map{|r| r['id'][/\d+/]}.each do |pid|
     extract_xpath("eb/hoer-archiv/?show=1&pid=#{pid}", '//a/@href').each do |episode_path|
 
-      e = Episode.new
       player = extract_xpath(episode_path, '//*[@id="player"]')
 
+      e = Episode.new
       e.title = player.xpath('//*[@id="audioSteuerung"]/h1/text()').to_s
 
-      mp3_url = player.xpath '//div[3]/p[4]/a/@href'
-      e.url = normalize(mp3_url)
+      e.url = normalize(player.xpath('//div[3]/p[4]/a/@href'))
 
       info_urls = player.xpath('//*[@id="linkInfoLightbox"]/@href')
 
