@@ -4,6 +4,7 @@ require 'json'
 require 'erb'
 require 'active_support/core_ext/object/blank'
 require 'uri'
+require 'rack'
 
 require 'require_all'
 require_rel 'ohrka-feed'

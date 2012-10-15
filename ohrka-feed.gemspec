@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'require_all'
   gem.add_dependency 'nokogiri'
   gem.add_dependency 'json'
+  gem.add_dependency 'rack'
   gem.add_dependency 'active_support'
 
   gem.add_development_dependency 'minitest'
@@ -30,7 +31,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'guard-bundler'
   gem.add_development_dependency 'libnotify'
   gem.add_development_dependency 'rb-inotify'
-  gem.add_development_dependency 'rb-fsevent'  
+  gem.add_development_dependency 'rb-fsevent'
   gem.add_development_dependency 'vcr'
   gem.add_development_dependency 'webmock'
 end

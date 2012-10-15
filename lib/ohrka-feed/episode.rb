@@ -1,7 +1,9 @@
 module Ohrka
-  module Feed  	
+  module Feed
     class Episode < Struct.new(:title, :subtitle, :url, :description, :author, :image_url, :file_size, :uuid, :pub_date, :duration)
       class << self
+        # Alternative:
+        # Start with /hoeren, then fetch //*[@id="next"] as long as it yields results
         def all
           result = [] unless block_given?
 
