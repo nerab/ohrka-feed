@@ -1,6 +1,8 @@
 # Ohrka::Feed
 
-Provides an RSS feed for http://www.ohrka.de/ until they provide one
+Generates an RSS feed for http://www.ohrka.de/ until they provide one.
+
+[![Build Status](https://secure.travis-ci.org/nerab/ohrka-feed.png?branch=master)](http://travis-ci.org/nerab/ohrka-feed)
 
 ## Installation
 
@@ -19,11 +21,3 @@ Or install it yourself as:
 ## Usage
 
 See bin script for now.
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
