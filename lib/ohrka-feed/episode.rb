@@ -1,6 +1,6 @@
 module Ohrka
   module Feed  	
-    class Episode < Struct.new(:title, :url, :description)
+    class Episode < Struct.new(:title, :subtitle, :url, :description, :author, :image_url, :file_size, :uuid, :pub_date, :duration)
       class << self
         def all
           result = [] unless block_given?
@@ -20,6 +20,8 @@ module Ohrka
                 json = extract_json(info_urls.first)
                 e.description = Nokogiri::HTML(json['content']).xpath('//p[@class="bodytext"]').to_html
               end
+
+              e.pub_date = Time.now
 
               if block_given?
                 yield e

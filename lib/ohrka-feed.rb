@@ -2,6 +2,8 @@ require 'uri'
 require 'open-uri'
 require 'nokogiri'
 require 'json'
+require 'erb'
+require 'active_support/core_ext/object/blank'
 
 require 'require_all'
 require_rel 'ohrka-feed'
