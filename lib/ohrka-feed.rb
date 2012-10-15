@@ -5,6 +5,7 @@ require 'erb'
 require 'active_support/core_ext/object/blank'
 require 'uri'
 require 'rack'
+require 'dalli'
 
 require 'require_all'
 require_rel 'ohrka-feed'

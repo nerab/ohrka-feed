@@ -41,11 +41,17 @@ module Ohrka
         end
 
         def fetch(path)
-          open(normalize(path))
+          cache.get(normalize(path)) do |key|
+            open(key)
+          end
         end
 
         def xpath(html, xpath)
           Nokogiri::HTML(html).xpath(xpath)
+        end
+
+        def cache
+          @cache ||= Cache.new(nil, :expires_in => 15 * 60)
         end
       end
   	end

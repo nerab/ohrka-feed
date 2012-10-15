@@ -21,6 +21,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'json'
   gem.add_dependency 'rack'
   gem.add_dependency 'active_support'
+  gem.add_dependency 'dalli'
 
   gem.add_development_dependency 'minitest'
   gem.add_development_dependency 'rake'
@@ -29,6 +30,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'guard'
   gem.add_development_dependency 'guard-minitest'
   gem.add_development_dependency 'guard-bundler'
+  gem.add_development_dependency 'terminal-notifier-guard'
   gem.add_development_dependency 'libnotify'
   gem.add_development_dependency 'rb-inotify'
   gem.add_development_dependency 'rb-fsevent'
