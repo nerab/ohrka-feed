@@ -17,7 +17,7 @@ http_interactions:
       message: TYPO3 RealURL redirect
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:49:57 GMT
+      - Mon, 15 Oct 2012 14:25:24 GMT
       Server:
       - Apache
       Location:
@@ -31,12 +31,12 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=c737831b6dabc3b788e144359b65ee60; path=/
+      - fe_typo_user=ab1299f3b1f157b98eae14d75767da8c; path=/
     body:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:57 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:24 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/eb/hoer-archiv/
@@ -56,7 +56,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo0OTo1NyBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyNCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -74,7 +74,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTk5Nzg2MDBmOGEyOWMwMmYzNGU3ZTAzMmJhYjI3Y2M1
+        ZmVfdHlwb191c2VyPTNiZTI3YjYyMWUwZDNhOTA4YWVkMGZmM2UyM2UyYTQ0
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -289,7 +289,7 @@ http_interactions:
         L3A+PC9ub3NjcmlwdD4KPCEtLSBFbmQgUGl3aWsgVHJhY2tpbmcgQ29kZSAt
         LT4KCgoKCjwvYm9keT4KPC9odG1sPg==
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:57 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:25 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/eb/hoer-archiv/?pid=23&show=1
@@ -309,7 +309,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo0OTo1NyBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyNSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -327,7 +327,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPWZiNDE2YTBhMmNiYjQxMzhkYWM2NzM4ZjdhYjNjYzdj
+        ZmVfdHlwb191c2VyPTQzZDAzZTc0NzA0OTc3OTAwYTVhNGY0ZDNiYTRjOTdm
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -418,7 +418,7 @@ http_interactions:
         PgoJCQkJCgkJCQk8ZGl2IGNsYXNzPSJjbGVhcmluZyI+PC9kaXY+CgkJCTwv
         ZGl2PjwvYT4K
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:57 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:25 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-alle/axel-hacke-liest-weitermachen/
@@ -438,7 +438,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo0OTo1NyBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyNSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -456,7 +456,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPThmNWQ5MzNkZmQ1MmViZTU0MmM2YWM1NGIxZjUzYzFl
+        ZmVfdHlwb191c2VyPTkyOWNlZmU0YTBkNjIwZTY1MzZlYjIyMDEwM2ZlOTU0
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -794,7 +794,7 @@ http_interactions:
         LSBFbmQgUGl3aWsgVHJhY2tpbmcgQ29kZSAtLT4KCgoKCjwvYm9keT4KPC9o
         dG1sPg==
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:58 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:25 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-alle/axel-hacke-liest-weitermachen/?show=infobox
@@ -812,7 +812,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:49:58 GMT
+      - Mon, 15 Oct 2012 14:25:25 GMT
       Server:
       - Apache
       Vary:
@@ -824,7 +824,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=5e485551addddd6f5bcda463de84a742; path=/
+      - fe_typo_user=020ccd9131ff77ba8245d1bd581be5a0; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"bildHoch\">\n\n\t\t\t\t\n\t\t\t\t<div
@@ -848,7 +848,7 @@ http_interactions:
         (ISBN 3-88897-345-7).<br \/>\u00a9 Verlag Antje Kunstmann GmbH, M\u00fcnchen
         2003<\/p><\/div>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:58 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:25 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/abenteuerlich-lustig/ole-goldfuss/
@@ -868,7 +868,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo0OTo1OCBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyNSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -886,7 +886,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTY5Zjc3ODhlMjUxYTIwZjVhOWQ3MTYwZmUzZjVhZDQ5
+        ZmVfdHlwb191c2VyPThiNjU1YjA2MmE0OTBiNTkxYzU4YWIyZjRjNzY5ZjQx
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -1219,7 +1219,7 @@ http_interactions:
         bm9zY3JpcHQ+CjwhLS0gRW5kIFBpd2lrIFRyYWNraW5nIENvZGUgLS0+CgoK
         Cgo8L2JvZHk+CjwvaHRtbD4=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:58 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:26 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/abenteuerlich-lustig/ole-goldfuss/?show=infobox
@@ -1237,7 +1237,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:49:58 GMT
+      - Mon, 15 Oct 2012 14:25:26 GMT
       Server:
       - Apache
       Vary:
@@ -1249,7 +1249,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=16c97a11cfcc535ee23e9b875b4d3c7a; path=/
+      - fe_typo_user=b05e2f4f672265abbedcbc6742eca2dd; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"bildHoch\">\n\n\t\t\t\t\n\t\t\t\t<div
@@ -1269,7 +1269,7 @@ http_interactions:
         von Tilo Werner, Schauspieler am Thalia-Theater in Hamburg.<\/p><\/div>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:59 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:26 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/abenteuerlich-lustig/oskar-auf-gespensterjagd/
@@ -1289,7 +1289,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo0OTo1OSBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyNiBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -1307,7 +1307,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPWUzZjJmOTBjZWI0MTMzOGNhMjM0MTE4NjU3MjU5Y2Qx
+        ZmVfdHlwb191c2VyPTEwOGEyYmE4ODNmNWVlMDE3ODQ0N2FhN2NjNGM4MWMx
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -1694,7 +1694,7 @@ http_interactions:
         c2NyaXB0Pgo8IS0tIEVuZCBQaXdpayBUcmFja2luZyBDb2RlIC0tPgoKCgoK
         PC9ib2R5Pgo8L2h0bWw+
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:59 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:26 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/abenteuerlich-lustig/oskar-auf-gespensterjagd/?show=infobox
@@ -1712,7 +1712,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:49:59 GMT
+      - Mon, 15 Oct 2012 14:25:26 GMT
       Server:
       - Apache
       Vary:
@@ -1724,7 +1724,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=0aa73ad40645cdb31e1612b099833575; path=/
+      - fe_typo_user=28713744eef9bbdb714a89a0582319a2; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"bildHoch\">\n\n\t\t\t\t\n\t\t\t\t<div
@@ -1744,7 +1744,7 @@ http_interactions:
         ganz geheime H\u00f6hle<\/a><\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:59 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:26 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/abenteuerlich-lustig/oskars-abenteuer/
@@ -1764,7 +1764,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo0OTo1OSBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyNiBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -1782,7 +1782,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTE4ZTIzYzc4NTdjYWU3ZGFjYmE4N2U4YmM2ZWE2MGU5
+        ZmVfdHlwb191c2VyPWQ0NWZkMzU3NjgwY2MyNWJlMTVlMGM5Y2Q5NGY1NTBl
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -2151,7 +2151,7 @@ http_interactions:
         PC9ub3NjcmlwdD4KPCEtLSBFbmQgUGl3aWsgVHJhY2tpbmcgQ29kZSAtLT4K
         CgoKCjwvYm9keT4KPC9odG1sPg==
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:49:59 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:27 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/abenteuerlich-lustig/oskars-ganz-geheime-hoehle/
@@ -2171,7 +2171,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo0OTo1OSBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyNyBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -2189,7 +2189,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPWZhZTc0ZmVlNmFlNTg5NDcwNTgxODJjOWI3MmI1OGI5
+        ZmVfdHlwb191c2VyPTI3OWM2OWYzNjEwMjU4ODA0YWZjMDZlNTFjOGQxYWY1
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -2562,7 +2562,7 @@ http_interactions:
         Ym9yZGVyOjAiIGFsdD0iIiAvPjwvcD48L25vc2NyaXB0Pgo8IS0tIEVuZCBQ
         aXdpayBUcmFja2luZyBDb2RlIC0tPgoKCgoKPC9ib2R5Pgo8L2h0bWw+
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:00 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:27 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/eb/hoer-archiv/?pid=16&show=1
@@ -2582,7 +2582,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowMCBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyNyBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -2600,7 +2600,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPWVmZTI3NDcyZDY0ZDQ4YzVhNjIxYTFlZjM2NGE2MDIz
+        ZmVfdHlwb191c2VyPTljNjJhMDA1NjMzOGExNzA0YTliZjk1N2E1YmI1NjFm
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -2762,7 +2762,7 @@ http_interactions:
         PgoJCQkJPC9wPgoJCQkJCgkJCQk8ZGl2IGNsYXNzPSJjbGVhcmluZyI+PC9k
         aXY+CgkJCTwvZGl2PjwvYT4K
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:00 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:28 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/tierisch-spannend/das-dschungelbuch/
@@ -2782,7 +2782,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowMCBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyOCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -2800,7 +2800,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTAxM2ZmNTI3OWFmYzVmNzFhM2NjNzlkYjAzMjc5ODA2
+        ZmVfdHlwb191c2VyPWIyMDlmYTU2YzFjMmVlNTQwZDFmYmNkZWIwNmUyN2Rh
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -3177,7 +3177,7 @@ http_interactions:
         RW5kIFBpd2lrIFRyYWNraW5nIENvZGUgLS0+CgoKCgo8L2JvZHk+CjwvaHRt
         bD4=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:00 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:28 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/tierisch-spannend/das-dschungelbuch/?show=infobox
@@ -3195,7 +3195,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:00 GMT
+      - Mon, 15 Oct 2012 14:25:28 GMT
       Server:
       - Apache
       Vary:
@@ -3207,7 +3207,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=79fa50eb70f029695b32afc4ce820fae; path=/
+      - fe_typo_user=c6b65b7c7a86318bd8d8a5e3bf810ecb; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"Das Dschungelbuch - komplett von Teil 1 bis 3","content":"\n\t\t\t<div
@@ -3230,7 +3230,7 @@ http_interactions:
         Dschungelbuch - Teil 3: Tiger, Tiger!<\/a><br \/><br \/><\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:00 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:28 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-profis/das-dschungelbuch-teil-1/
@@ -3250,7 +3250,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowMCBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyOCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -3268,7 +3268,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPWY4MzcxYjQyNzBjYzkxZjFlMGI1M2RkM2YxYjJjOWY5
+        ZmVfdHlwb191c2VyPTY5MTJlYzc2OTA0OTUxZDZhMzkwZGFjZDk5NjE4Mzg4
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -3665,7 +3665,7 @@ http_interactions:
         PC9wPjwvbm9zY3JpcHQ+CjwhLS0gRW5kIFBpd2lrIFRyYWNraW5nIENvZGUg
         LS0+CgoKCgo8L2JvZHk+CjwvaHRtbD4=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:01 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:28 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-profis/das-dschungelbuch-teil-1/?show=infobox
@@ -3683,7 +3683,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:01 GMT
+      - Mon, 15 Oct 2012 14:25:28 GMT
       Server:
       - Apache
       Vary:
@@ -3695,7 +3695,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=7f34f64c6ce5ed3cd3282f7e9366d86b; path=/
+      - fe_typo_user=02059e9883da4d1267204f555baae0e1; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"Das Dschungelbuch - Teil 1: Moglis Br\u00fcder","content":"\n\t\t\t<div
@@ -3715,7 +3715,7 @@ http_interactions:
         Dschungelbuch - Teil 3: Tiger, Tiger!<\/a><\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:01 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:29 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-profis/das-dschungelbuch-teil-2/
@@ -3735,7 +3735,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowMSBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNToyOSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -3753,7 +3753,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTIzNjdjYWE0MDAwODFhMTBlMjUxNDA5Nzk1ZmNlN2Zl
+        ZmVfdHlwb191c2VyPTI0MzNhNWZhMGY2MWQ1YjYxYWI0NGIzYjlkMjU0OWQz
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -4155,7 +4155,7 @@ http_interactions:
         CjwhLS0gRW5kIFBpd2lrIFRyYWNraW5nIENvZGUgLS0+CgoKCgo8L2JvZHk+
         CjwvaHRtbD4=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:01 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:29 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-profis/das-dschungelbuch-teil-2/?show=infobox
@@ -4173,7 +4173,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:01 GMT
+      - Mon, 15 Oct 2012 14:25:29 GMT
       Server:
       - Apache
       Vary:
@@ -4185,7 +4185,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=b580679ef8dc8a732cb79612c86ef835; path=/
+      - fe_typo_user=958e226b11c6c4bbf916fe529fe0e7bc; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"Das Dschungelbuch - Teil 2: Moglis Br\u00fcder","content":"\n\t\t\t<div
@@ -4205,7 +4205,7 @@ http_interactions:
         Dschungelbuch - Teil 3: Tiger, Tiger!<\/a><\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:01 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:29 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-profis/das-dschungelbuch-teil-3/
@@ -4223,7 +4223,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:01 GMT
+      - Mon, 15 Oct 2012 14:25:29 GMT
       Server:
       - Apache
       Vary:
@@ -4235,7 +4235,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=ef7f528ad56cfb521c121706e32371cb; path=/
+      - fe_typo_user=ef84d3d8966744cebecd86c5f8987cfc; path=/
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -4628,7 +4628,7 @@ http_interactions:
         Lz48L3A+PC9ub3NjcmlwdD4KPCEtLSBFbmQgUGl3aWsgVHJhY2tpbmcgQ29k
         ZSAtLT4KCgoKCjwvYm9keT4KPC9odG1sPg==
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:02 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:29 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-profis/das-dschungelbuch-teil-3/?show=infobox
@@ -4646,7 +4646,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:02 GMT
+      - Mon, 15 Oct 2012 14:25:29 GMT
       Server:
       - Apache
       Vary:
@@ -4658,7 +4658,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=da5336dbd62ca0af112afa18ac43e7c2; path=/
+      - fe_typo_user=bc84fc397214d0a0fd60946238641395; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"Das Dschungelbuch - Teil 3: Moglis Br\u00fcder","content":"\n\t\t\t<div
@@ -4678,7 +4678,7 @@ http_interactions:
         Dschungelbuch - Teil 2: Kaas Jagd<\/a><\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:02 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:30 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/tierisch-spannend/die-alster-detektive-1-fall/
@@ -4698,7 +4698,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowMiBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -4716,7 +4716,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTdjMDQ1ZTUzYWEwYTEwZDc5NDI2OGUyNzlmM2EzZjQ3
+        ZmVfdHlwb191c2VyPWM1Y2Y3ZDk1ZjcxNTAxMDRkZTgxYWFjNWU2NTRlYzcw
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -5072,7 +5072,7 @@ http_interactions:
         LSBFbmQgUGl3aWsgVHJhY2tpbmcgQ29kZSAtLT4KCgoKCjwvYm9keT4KPC9o
         dG1sPg==
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:02 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:30 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/tierisch-spannend/die-alster-detektive-1-fall/?show=infobox
@@ -5090,7 +5090,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:02 GMT
+      - Mon, 15 Oct 2012 14:25:30 GMT
       Server:
       - Apache
       Vary:
@@ -5102,7 +5102,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=bcfc68d4678c9eb987f1c30ba6d07734; path=/
+      - fe_typo_user=eda8113b53bf75920f45bd77de0c00f0; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"BildQuer\">\n\n\t\t\t\t<img
@@ -5137,7 +5137,7 @@ http_interactions:
         Fall: Ekelige Fracht<\/a><br \/>4. Fall: Schmierfinken<br \/>5. Fall: Sch\u00f6ne
         Bescherung<\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:02 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:30 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/tierisch-spannend/die-alster-detektive-2-fall/
@@ -5157,7 +5157,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowMiBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -5175,7 +5175,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTg1YzY5MTYxZWIwZDJkYzU0MzkxY2Y0YTc5YWQzNTlj
+        ZmVfdHlwb191c2VyPTgxNjk0NTU5NDI0NGRkNTk2NzIwZGY5ZTE5YjM3OTJh
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -5534,7 +5534,7 @@ http_interactions:
         L25vc2NyaXB0Pgo8IS0tIEVuZCBQaXdpayBUcmFja2luZyBDb2RlIC0tPgoK
         CgoKPC9ib2R5Pgo8L2h0bWw+
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:03 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:30 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/tierisch-spannend/die-alster-detektive-2-fall/?show=infobox
@@ -5552,7 +5552,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:03 GMT
+      - Mon, 15 Oct 2012 14:25:30 GMT
       Server:
       - Apache
       Vary:
@@ -5564,7 +5564,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=9c5c7d4835d526cdbecfe9cef802d1fc; path=/
+      - fe_typo_user=fa0c7c6fa772a54e4df8157b090e564d; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"BildQuer\">\n\n\t\t\t\t<img
@@ -5606,7 +5606,7 @@ http_interactions:
         Fracht<\/a><br \/>4. Fall: Schmierfinken<br \/>5. Fall: Sch\u00f6ne Bescherung<\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:03 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:31 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/tierisch-spannend/die-alster-detektive-3-fall/
@@ -5626,7 +5626,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowMyBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -5644,7 +5644,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTE2OTc1Mjc1YzdjYTA2M2ViYmFkMDE0OThkMThjNTM5
+        ZmVfdHlwb191c2VyPWYwMWExZjMyMjFhYTAwN2Y3YWViZDFiYWVjNGRhZDQ4
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -5999,7 +5999,7 @@ http_interactions:
         PC9wPjwvbm9zY3JpcHQ+CjwhLS0gRW5kIFBpd2lrIFRyYWNraW5nIENvZGUg
         LS0+CgoKCgo8L2JvZHk+CjwvaHRtbD4=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:03 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:31 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/tierisch-spannend/die-alster-detektive-3-fall/?show=infobox
@@ -6017,7 +6017,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:03 GMT
+      - Mon, 15 Oct 2012 14:25:31 GMT
       Server:
       - Apache
       Vary:
@@ -6029,7 +6029,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=24dcd2263df0f71a4e1415a26de69d5c; path=/
+      - fe_typo_user=8e1f119a54faa3e5f174fc19a36be6f1; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"BildQuer\">\n\n\t\t\t\t<img
@@ -6068,7 +6068,7 @@ http_interactions:
         du gerade)<br \/>4. Fall: Schmierfinken<br \/>5. Fall: Sch\u00f6ne Bescherung<\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:04 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:31 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/spannend-und-tierisch/mit-einem-klick-durch-die-zeit/
@@ -6088,7 +6088,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNCBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -6106,7 +6106,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTM0NzgzMTI3MjljZmIxMWY5ZWFhNjNhYWE3MGNkOWI1
+        ZmVfdHlwb191c2VyPTVlNzM5ZGQ0OWI4MzdhYmI2NjhlMzk0OGQwNGUwYWEx
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -6591,7 +6591,7 @@ http_interactions:
         Pgo8IS0tIEVuZCBQaXdpayBUcmFja2luZyBDb2RlIC0tPgoKCgoKPC9ib2R5
         Pgo8L2h0bWw+
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:04 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:31 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/spannend-und-tierisch/mit-einem-klick-durch-die-zeit/?show=infobox
@@ -6609,7 +6609,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:04 GMT
+      - Mon, 15 Oct 2012 14:25:31 GMT
       Server:
       - Apache
       Vary:
@@ -6621,7 +6621,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=1523959852194e727984d6c609f7c5f4; path=/
+      - fe_typo_user=ae3b77e6afaeddf279e372b97c85a327; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"BildQuer\">\n\n\t\t\t\t<img
@@ -6652,7 +6652,7 @@ http_interactions:
         viel Spa\u00df mit Mozart und Co. und kommt aus dem Staunen kaum heraus...<\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:04 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:32 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-profis/robinson-crusoe/
@@ -6672,7 +6672,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNCBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -6690,7 +6690,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPWU0Y2UyZTMzZTZmZTE1MjAyNWE2NjViMmE1MGUxMTFm
+        ZmVfdHlwb191c2VyPWMxMGZkNTRkZGY4NzcyMjQxMTFjODk1MjMzOTNiZWRj
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -7021,7 +7021,7 @@ http_interactions:
         PjwvcD48L25vc2NyaXB0Pgo8IS0tIEVuZCBQaXdpayBUcmFja2luZyBDb2Rl
         IC0tPgoKCgoKPC9ib2R5Pgo8L2h0bWw+
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:04 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:32 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/hoerabenteuer-fuer-profis/robinson-crusoe/?show=infobox
@@ -7039,7 +7039,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:04 GMT
+      - Mon, 15 Oct 2012 14:25:32 GMT
       Server:
       - Apache
       Vary:
@@ -7051,7 +7051,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=adcda7deec75cac493c6925e57b543b0; path=/
+      - fe_typo_user=44c4ad76f9cf319b2b846e40dcdcac64; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"BildQuer\">\n\n\t\t\t\t<img
@@ -7070,7 +7070,7 @@ http_interactions:
         kennen, nimmt sich einen Klassiker vor und taucht ein in die Welt des gestrandeten
         Robinson.<\/p><\/div>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:05 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:32 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/eb/hoer-archiv/?pid=26&show=1
@@ -7090,7 +7090,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNSBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMiBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -7108,7 +7108,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPWM2YzQ3YTA5OTcwNmNmZWY3ZTg2YTE4OTVmMWYwYjAy
+        ZmVfdHlwb191c2VyPWE5NGVjNTdkMjUxOGYwMWQ5MzgzZjQ1NGM3MTYyNzE0
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -7132,7 +7132,7 @@ http_interactions:
         CQkJCTxkaXYgY2xhc3M9ImNsZWFyaW5nIj48L2Rpdj4KCQkJPC9kaXY+PC9h
         Pgo=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:05 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:32 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/ohrka-freunde/helme-heine-und-echte-orcas/
@@ -7152,7 +7152,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNSBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMiBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -7170,7 +7170,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTE5OGExYjIwOTU5YzNiMTNjMTJjODFkZmIyMWYxNzA0
+        ZmVfdHlwb191c2VyPTY1ZmI0ZDIxNjNhZTViMjdlNWJjNzc0MWQzYjJlNjk0
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -7497,7 +7497,7 @@ http_interactions:
         cmRlcjowIiBhbHQ9IiIgLz48L3A+PC9ub3NjcmlwdD4KPCEtLSBFbmQgUGl3
         aWsgVHJhY2tpbmcgQ29kZSAtLT4KCgoKCjwvYm9keT4KPC9odG1sPg==
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:05 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:32 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/ohrka-freunde/helme-heine-und-echte-orcas/?show=infobox
@@ -7515,7 +7515,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:05 GMT
+      - Mon, 15 Oct 2012 14:25:32 GMT
       Server:
       - Apache
       Vary:
@@ -7527,7 +7527,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=2c67dc9fd99c8e95ed7f0d11927b62d0; path=/
+      - fe_typo_user=d018baa3d90108a702ed2cd38d622384; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"Helme Heine und die echten Orcas","content":"\n\t\t\t<div
@@ -7541,7 +7541,7 @@ http_interactions:
         also einem ohne Kopfh\u00f6rer.<\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:05 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:33 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/eb/hoer-archiv/?pid=17&show=1
@@ -7561,7 +7561,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNSBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMyBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -7579,7 +7579,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTcxZmRiNzdmMWM3ODA5OGQ1ZmNjMWYxNmZmZTYzMmY4
+        ZmVfdHlwb191c2VyPTZmY2NlMTg4MjFiNWQyMTQ4M2VhNTIyOWNjZmNjNWIx
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -7658,7 +7658,7 @@ http_interactions:
         IGhlaWdodD0iMjYiPgoJCQkJPC9wPgoJCQkJCgkJCQk8ZGl2IGNsYXNzPSJj
         bGVhcmluZyI+PC9kaXY+CgkJCTwvZGl2PjwvYT4K
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:06 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:33 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/reportagen-und-co/deutsches-museum/
@@ -7678,7 +7678,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNiBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMyBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -7696,7 +7696,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPWZiZGQyODZkYmQ0MmQxOGEzZjVlYTYwMDYxNDM2NTNj
+        ZmVfdHlwb191c2VyPTY2ZTAwY2MwODdlNzNiNzNlMGZhZGRhYWFkZWZlOGM1
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -8235,7 +8235,7 @@ http_interactions:
         cmRlcjowIiBhbHQ9IiIgLz48L3A+PC9ub3NjcmlwdD4KPCEtLSBFbmQgUGl3
         aWsgVHJhY2tpbmcgQ29kZSAtLT4KCgoKCjwvYm9keT4KPC9odG1sPg==
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:06 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:33 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/reportagen-und-co/deutsches-museum/?show=infobox
@@ -8253,7 +8253,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Oct 2012 13:50:06 GMT
+      - Mon, 15 Oct 2012 14:25:33 GMT
       Server:
       - Apache
       Vary:
@@ -8265,7 +8265,7 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - fe_typo_user=564d67e3a20990af9de7ac3a7ad2276c; path=/
+      - fe_typo_user=abaa92752ceafe010d5c2ea611039281; path=/
     body:
       encoding: US-ASCII
       string: ! '{"header":"","content":"\n\t\t\t<div id=\"infoboxBildspalte\" class=\"BildQuer\">\n\n\t\t\t\t<img
@@ -8285,7 +8285,7 @@ http_interactions:
         ins&nbsp;Pergamonmuseum auf der Museumsinsel in Berlin.<\/p>\n\t\t\t<\/div><!--infoboxTextspalte-->\n\t\t\t<div
         class=\"clearing\"><\/div><!--Clearing-->\n\t"}'
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:06 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:33 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/reportagen-und-co/woher-kommen-nudeln-und-pasta-zutaten/
@@ -8305,7 +8305,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNiBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozMyBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -8323,7 +8323,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTUxN2U2ZGJiMzcxODE2MDJiMzlkOGY4NmU3MGYyYzg2
+        ZmVfdHlwb191c2VyPTA2Mzk4M2IwNzZkZjBlNTQ5ZTliNTBlMTAzYzZmNDk1
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -8703,7 +8703,7 @@ http_interactions:
         cHQ+CjwhLS0gRW5kIFBpd2lrIFRyYWNraW5nIENvZGUgLS0+CgoKCgo8L2Jv
         ZHk+CjwvaHRtbD4=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:06 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:34 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/reportagen-und-co/woher-kommt-die-erdbeere/
@@ -8723,7 +8723,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNiBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozNCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -8741,7 +8741,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTA4ZTA3NmRkODEzZGFiMTIyZGVmZGZkZDljOTQ4MTU3
+        ZmVfdHlwb191c2VyPWI3Y2RlN2RkODZmY2E4ZGRiNTQwNTg0NTUzOGE5ZTcz
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -9136,7 +9136,7 @@ http_interactions:
         bm9zY3JpcHQ+CjwhLS0gRW5kIFBpd2lrIFRyYWNraW5nIENvZGUgLS0+CgoK
         Cgo8L2JvZHk+CjwvaHRtbD4=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:07 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:34 GMT
 - request:
     method: get
     uri: http://www.ohrka.de/hoeren/reportagen-und-co/woher-kommt-der-knoblauch/
@@ -9156,7 +9156,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNSBPY3QgMjAxMiAxMzo1MDowNyBHTVQ=
+        TW9uLCAxNSBPY3QgMjAxMiAxNDoyNTozNCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -9174,7 +9174,7 @@ http_interactions:
         S2VlcC1BbGl2ZQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        ZmVfdHlwb191c2VyPTcyMDVjNzgxODY4MTcwYWM4NjQzZjgwYWQ0NWVkNjlh
+        ZmVfdHlwb191c2VyPWEyZDQyZDZmYzUxOTk1NzQxZWRiNWNiZmUxZjQyMjA4
         OyBwYXRoPS8=
     body:
       encoding: ASCII-8BIT
@@ -9557,5 +9557,5 @@ http_interactions:
         RW5kIFBpd2lrIFRyYWNraW5nIENvZGUgLS0+CgoKCgo8L2JvZHk+CjwvaHRt
         bD4=
     http_version: 
-  recorded_at: Mon, 15 Oct 2012 13:50:07 GMT
+  recorded_at: Mon, 15 Oct 2012 14:25:34 GMT
 recorded_with: VCR 2.2.5
