@@ -8,6 +8,6 @@ class TestEpisodes < OhrkaFeedTestCase
   end
 
   def test_size
-    assert_equal(194, @episodes.count)
+    assert_equal(19, @episodes.count)
   end
 end

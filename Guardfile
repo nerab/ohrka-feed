@@ -1,5 +1,6 @@
 guard 'bundler' do
   watch('Gemfile')
+  watch(%r|^.*\.gemspec|)
 end
 
 guard 'minitest' do
