@@ -2,6 +2,7 @@ require 'helper'
 
 class TestEpisodes < OhrkaFeedTestCase
   def setup
+    Episode.cache.flush
     @episodes = mocked('setup') do
       Episode.all
     end
@@ -14,11 +15,11 @@ class TestEpisodes < OhrkaFeedTestCase
   def test_streaming
   	count = 0
 
-	mocked('setup') do
+    mocked('setup') do
       Episode.all do |e|
       	count += 1
       end
-    end 
+    end
 
     assert_equal(19, count)
   end

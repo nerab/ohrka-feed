@@ -4,7 +4,8 @@ class TestCache < MiniTest::Unit::TestCase
   include Ohrka::Feed
 
   def setup
-    @cache = Cache.new(nil, :expires_in => 5)
+    @cache = Cache.new(nil, :expires_in => 60)
+    @cache.flush # make sure memcached does not re-used anything from previous runs
   end
 
   def test_get_block
@@ -24,12 +25,13 @@ class TestCache < MiniTest::Unit::TestCase
 
   def test_block_precedence
     @cache.set('foot', 'something')
-    assert_equal('foobaz', @cache.get('foot'){|key| 'foobaz'})
-    assert_equal('foobaz', @cache.get('foot'))
+
+    # block is only evaluated on cache miss
+    assert_equal('something', @cache.get('foot'){|key| 'foobaz'})
+    assert_equal('something', @cache.get('foot'))
   end
 
   def test_block_precedence_nil
-    @cache.set('footz', 'something')
     refute(@cache.get('footz'){})
   end
 end

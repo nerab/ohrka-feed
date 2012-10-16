@@ -18,7 +18,7 @@ module Ohrka
               info_urls = player.xpath('//*[@id="linkInfoLightbox"]/@href')
 
               if info_urls.any?
-                info = JSON.parse(fetch(info_urls.first).read)
+                info = JSON.parse(fetch(info_urls.first))
                 e.description = Nokogiri::HTML(info['content']).xpath('//p[@class="bodytext"]').to_html
               end
 
@@ -34,6 +34,10 @@ module Ohrka
           result unless block_given?
         end
 
+        def cache
+          @cache ||= Cache.new(nil, :expires_in => 15 * 60)
+        end
+
         private
 
         def normalize(path)
@@ -42,16 +46,13 @@ module Ohrka
 
         def fetch(path)
           cache.get(normalize(path)) do |key|
-            open(key)
+            STDERR.puts "Cache miss for #{key}"
+            open(key).read
           end
         end
 
         def xpath(html, xpath)
           Nokogiri::HTML(html).xpath(xpath)
-        end
-
-        def cache
-          @cache ||= Cache.new(nil, :expires_in => 15 * 60)
         end
       end
   	end

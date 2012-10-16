@@ -7,4 +7,8 @@ class Hash
   def get(name)
     fetch(name, nil)
   end
+
+  def flush
+    clear
+  end
 end
