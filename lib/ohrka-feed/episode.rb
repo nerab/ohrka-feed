@@ -13,7 +13,15 @@ module Ohrka
 
               e = Episode.new
               e.title = player.xpath('//*[@id="audioSteuerung"]/h1/text()').to_s
-              e.url = normalize(player.xpath('//div[3]/p[4]/a/@href'))
+              e.url = normalize(player.xpath('//*[@id="mp3File"]/@href'))
+
+              unless e.url.to_s =~ /\.mp3$/
+                STDERR.puts "Skipping #{e.url}"
+                next
+              end
+
+              e.image_url = normalize(player.xpath('//*[@id="audioSteuerung"]/img/@src'))
+              e.duration = player.xpath('//*[@id="PlayerTime"]/text()').to_s.strip
 
               info_urls = player.xpath('//*[@id="linkInfoLightbox"]/@href')
 
@@ -21,8 +29,6 @@ module Ohrka
                 info = JSON.parse(fetch(info_urls.first))
                 e.description = Nokogiri::HTML(info['content']).xpath('//p[@class="bodytext"]').to_html
               end
-
-              e.pub_date = Time.now
 
               if block_given?
                 yield e
@@ -41,7 +47,7 @@ module Ohrka
         private
 
         def normalize(path)
-          URI('http://www.ohrka.de').merge(path.to_s)
+          URI('http://www.ohrka.de').merge(URI.escape(path.to_s))
         end
 
         def fetch(path)
@@ -53,6 +59,13 @@ module Ohrka
 
         def xpath(html, xpath)
           Nokogiri::HTML(html).xpath(xpath)
+        end
+      end
+
+      def enclosure
+        self.class.cache.get(url) do |key|
+          STDERR.puts "Cache miss for enclosure at #{key}"
+          Enclosure.new(key)
         end
       end
   	end

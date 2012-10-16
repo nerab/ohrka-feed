@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: head
+    uri: http://www.ohrka.de/fileadmin/audio/Helme%20Heine/HH%20Website.mp3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 16 Oct 2012 21:11:23 GMT
+      Server:
+      - Apache
+      Last-Modified:
+      - Thu, 28 Jun 2012 12:29:42 GMT
+      Etag:
+      - ! '"188800a-1be550-4c3877c677980"'
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '1828176'
+      Content-Type:
+      - audio/mpeg
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 16 Oct 2012 21:11:26 GMT
+recorded_with: VCR 2.2.5
