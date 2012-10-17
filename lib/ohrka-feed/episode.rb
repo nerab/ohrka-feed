@@ -42,7 +42,7 @@ module Ohrka
         end
 
         def cache
-          @cache ||= Cache.new(nil, :expires_in => 15 * 60)
+          @cache ||= Cache.new(nil, :expires_in => 12 * 60 * 60) # 12 hours
         end
 
         private

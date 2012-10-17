@@ -33,7 +33,7 @@ class TestFeed < OhrkaFeedTestCase
   end
 
   def test_item_8
-    assert(keywords(1) =~ /^(?=.*anke)(?=.*engelke)(?=.*dschungelbuch).*/) # ((\w+), )?(\w+)
+    assert(keywords(1) =~ /^(?=.*anke)(?=.*engelke)(?=.*dschungelbuch).*/)
   end
 
   private
