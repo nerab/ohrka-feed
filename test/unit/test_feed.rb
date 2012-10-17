@@ -32,6 +32,10 @@ class TestFeed < OhrkaFeedTestCase
     assert_equal('http://www.ohrka.de/uploads/media/pl_goldfuss2_01.png', image_url(2))
   end
 
+  def test_item_8
+    assert(keywords(8) =~ /^(?=.*anke)(?=.*engelke)(?=.*dschungelbuch).*/) # ((\w+), )?(\w+)
+  end
+
   private
 
   def xpath(expr, node = @rss)
@@ -56,5 +60,9 @@ class TestFeed < OhrkaFeedTestCase
 
   def duration(i)
     item(i).xpath('itunes:duration/text()').first.to_s
+  end
+
+  def keywords(i)
+    item(i).xpath('itunes:keywords/text()').first.to_s
   end
 end

@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 module Ohrka
-  module Feed  	
+  module Feed
   	class Channel
       include ERB::Util # for h() in the ERB template
       TemplateNotFoundError = Class.new(StandardError)
@@ -10,7 +10,7 @@ module Ohrka
         channel_template = File.join(File.dirname(__FILE__), '..', '..', 'templates', 'ohrka.rss.erb')
 
         begin
-          @erb_template = ERB.new(File.new(channel_template).read, 0, "%<>")
+          @erb_template = ERB.new(File.new(channel_template).read, 0, "<>")
         rescue Errno::ENOENT => e
           raise TemplateNotFoundError.new(e.message)
         end

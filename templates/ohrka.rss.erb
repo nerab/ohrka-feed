@@ -9,6 +9,7 @@
     <itunes:summary>Mit ohrka.de wollen wir Kinder ab 5 Jahren fürs Zuhören begeistern und ihnen erstmals in Deutschland eine umfangreiche Sammlung von hochwertig produzierten Hörspielen, Geschichten und Reportagen zur Verfügung stellen. Und das kostenlos und werbefrei, jederzeit und überall.</itunes:summary>
     <language>de_DE</language>
     <copyright>OHRKA e.V.</copyright>
+    <itunes:category text="Kids &amp; Family"/>
     <itunes:subtitle>Das neue Hörportal für Kinder</itunes:subtitle>
     <itunes:author>OHRKA e.V.</itunes:author>
     <itunes:owner>
@@ -28,6 +29,9 @@
       <guid isPermaLink="false"><%= h(item.enclosure.uuid) %></guid>
       <pubDate><%= h(item.enclosure.date.rfc2822) %></pubDate>
       <itunes:duration><%= item.duration %></itunes:duration>
+    <% unless item.keywords.blank? %>
+      <itunes:keywords><%= item.keywords %></itunes:keywords>
+    <% end %>
     </item>
   <% } %>
   </channel>

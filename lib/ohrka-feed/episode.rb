@@ -1,6 +1,6 @@
 module Ohrka
   module Feed
-    class Episode < Struct.new(:title, :subtitle, :url, :description, :author, :image_url, :file_size, :uuid, :pub_date, :duration)
+    class Episode < Struct.new(:title, :subtitle, :url, :description, :author, :image_url, :file_size, :uuid, :pub_date, :duration, :keywords)
       class << self
         # Alternative:
         # Start with /hoeren, then fetch //*[@id="next"] as long as it yields results
@@ -9,7 +9,8 @@ module Ohrka
 
           xpath(fetch('eb/hoer-archiv'), "//*[starts-with(@id, 'search_element')]").map{|r| r['id'][/\d+/]}.each do |pid|
             xpath(fetch("eb/hoer-archiv/?show=1&pid=#{pid}"), '//a/@href').each do |episode_path|
-              player = xpath(fetch(episode_path), '//*[@id="player"]')
+              episode = fetch(episode_path)
+              player = xpath(episode, '//*[@id="player"]')
 
               e = Episode.new
               e.title = player.xpath('//*[@id="audioSteuerung"]/h1/text()').to_s
@@ -21,9 +22,9 @@ module Ohrka
               end
 
               e.image_url = normalize(player.xpath('//*[@id="audioSteuerung"]/img/@src'))
-              e.duration = player.xpath('//*[@id="PlayerTime"]/text()').to_s.strip
-
-              info_urls = player.xpath('//*[@id="linkInfoLightbox"]/@href')
+              e.duration  = player.xpath('//*[@id="PlayerTime"]/text()').to_s.strip
+              e.keywords  = xpath(episode, '//html/head/meta[@name = "keywords"]/@content').first.to_s
+              info_urls   = player.xpath('//*[@id="linkInfoLightbox"]/@href')
 
               if info_urls.any?
                 info = JSON.parse(fetch(info_urls.first))
