@@ -18,22 +18,22 @@ class TestFeed < OhrkaFeedTestCase
     assert_equal(19, xpath('//rss/channel/item').size)
   end
 
-  def test_item_1
-    assert_equal('Axel Hacke liest: "Weitermachen!"', title(1))
-    assert_equal('http://www.ohrka.de/uploads/media/pl_zahnbuerste_02.png', image_url(1))
-    assert_equal('5406720', enclosure(1)['length'])
-    assert_equal('http://www.ohrka.de/fileadmin/audio/Axel%20Hacke.mp3', enclosure(1)['url'])
-    assert_equal('audio/mpeg', enclosure(1)['type'])
-    assert_equal('00:05:00', duration(1))
+  def test_item_14
+    assert_equal('Axel Hacke liest: "Weitermachen!"', title(14))
+    assert_equal('http://www.ohrka.de/uploads/media/pl_zahnbuerste_02.png', image_url(14))
+    assert_equal('5406720', enclosure(14)['length'])
+    assert_equal('http://www.ohrka.de/fileadmin/audio/Axel%20Hacke.mp3', enclosure(14)['url'])
+    assert_equal('audio/mpeg', enclosure(14)['type'])
+    assert_equal('00:05:00', duration(14))
   end
 
-  def test_item_2
-    assert_equal('Ole Goldfuß', title(2))
-    assert_equal('http://www.ohrka.de/uploads/media/pl_goldfuss2_01.png', image_url(2))
+  def test_item_3
+    assert_equal('Ole Goldfuß', title(3))
+    assert_equal('http://www.ohrka.de/uploads/media/pl_goldfuss2_01.png', image_url(3))
   end
 
   def test_item_8
-    assert(keywords(8) =~ /^(?=.*anke)(?=.*engelke)(?=.*dschungelbuch).*/) # ((\w+), )?(\w+)
+    assert(keywords(1) =~ /^(?=.*anke)(?=.*engelke)(?=.*dschungelbuch).*/) # ((\w+), )?(\w+)
   end
 
   private

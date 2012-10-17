@@ -19,19 +19,13 @@
     <itunes:image href="http://www.ohrka.de/uploads/media/Ohrka_Logo_RGB_www.jpg"/>
   <% episodes.each{|item| %>
     <item>
-      <title><%= item.title %></title>
-    <% unless item.subtitle.blank? %>
-      <itunes:subtitle><%= h(item.subtitle.truncate(50)) %></itunes:subtitle>
-      <itunes:summary><%= h(item.subtitle) %></itunes:summary>
-    <% end %>
+      <title><%= h(item.title) %></title>
       <itunes:image href="<%= item.image_url %>"/>
       <enclosure url="<%= item.url %>" length="<%= item.enclosure.size %>" type="<%= item.enclosure.type %>"/>
       <guid isPermaLink="false"><%= h(item.enclosure.uuid) %></guid>
       <pubDate><%= h(item.enclosure.date.rfc2822) %></pubDate>
-      <itunes:duration><%= item.duration %></itunes:duration>
-    <% unless item.keywords.blank? %>
-      <itunes:keywords><%= item.keywords %></itunes:keywords>
-    <% end %>
+      <itunes:duration><%= h(item.duration) %></itunes:duration>
+      <% unless item.keywords.blank? %><itunes:keywords><%= h(item.keywords) %></itunes:keywords><% end %>
     </item>
   <% } %>
   </channel>

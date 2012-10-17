@@ -1,6 +1,6 @@
 module Ohrka
   module Feed
-    class Episode < Struct.new(:title, :subtitle, :url, :description, :author, :image_url, :file_size, :uuid, :pub_date, :duration, :keywords)
+    class Episode < Struct.new(:title, :url, :description, :duration, :image_url, :keywords)
       class << self
         # Alternative:
         # Start with /hoeren, then fetch //*[@id="next"] as long as it yields results
@@ -38,7 +38,7 @@ module Ohrka
               end
             end
           end
-          result unless block_given?
+          result.sort_by{|e| e.enclosure.date}.reverse unless block_given?
         end
 
         def cache
