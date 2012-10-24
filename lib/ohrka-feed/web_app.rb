@@ -8,7 +8,7 @@ module Ohrka
 
         [ 200,
           {
-            'Content-Type'  => 'application/rss+xml',
+            'Content-Type'  => 'application/rss+xml; charset=utf-8',
             'Last-Modified' => channel.episodes.first.enclosure.date.rfc2822
           },
           [channel.to_rss]
